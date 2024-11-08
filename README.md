@@ -1,6 +1,8 @@
 # dsci_598_capstone
 This repository will be used for Maryville DSCI 598 Capstone Project - Kaggle IEEE Fraud Detection 
 
+# Competition Page
+https://www.kaggle.com/c/ieee-fraud-detection
 
 # Project Description
 In this competition, you will build a classification model to predict whether or not an online financial transaction is fraudulent. This is a binary classification problem. Some important characteristics of this competition are mentioned below.
