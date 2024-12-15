@@ -11,8 +11,8 @@ https://www.kaggle.com/c/ieee-fraud-detection
 By combining optimization, rigorous evaluation, and interpretability, the team delivered several high-performing models. Best model scored 
 ## HyperOpt/LightGPM Model Results: Private Socre was .85 and Public Score was 0.885
 ## Optimized LightGPM Model Results: Private Socre was .93 and Public Score was 0.91
-
-
+##
+##
 ## Project Description
 In this competition, you will build a classification model to predict whether or not an online financial transaction is fraudulent. This is a binary classification problem. Some important characteristics of this competition are mentioned below.
 
@@ -37,35 +37,34 @@ Hyperparameter tuning added another layer of complexity, as finding the optimal 
 Collaboration introduced its own set of challenges, as team members worked across different schedules and time zones, making synchronous communication difficult. Managing contributions, code versions, and aligning objectives demanded a structured and flexible approach to communication. Computational resource limitations also posed difficulties, especially given the iterative nature of feature selection and hyperparameter tuning. Early stopping mitigated some resource constraints, but the sheer volume of experiments required careful planning and execution.
 
 Despite these challenges, we overcame them through careful planning, collaboration, and persistence. Robust preprocessing, thoughtful experimentation, and leveraging modern tools like LightGBM, Hyperopt, and SHAP enabled us to optimize the model effectively. Collaborative problem-solving and regular communication ensured that all team members contributed meaningfully, even when faced with logistical constraints. These obstacles ultimately strengthened both our workflow and the final model, resulting in a high-performing and interpretable solution.
-
- 
+##
+ ##
 
 
 # Team Approach
 The team adopted a hybrid collaboration model to navigate challenges such as differing time zones, personal responsibilities, and varying work commitments. Recognizing the need for flexibility, the team emphasized independent analysis, code creation, and regular peer reviews over synchronous collaboration. This approach balanced individual accountability with team alignment, ensuring steady progress despite logistical constraints.
 
 ## Key strategies included:
-Focused Independent Work: Each member tackled specific tasks, allowing for efficient use of their time.
-Regular Peer Reviews: Feedback loops helped refine the codebase and improve overall quality.
-Adaptable Communication: Team members reached out proactively to provide support and stay aligned on goals.
+### Focused Independent Work: Each member tackled specific tasks, allowing for efficient use of their time.
+### Regular Peer Reviews: Feedback loops helped refine the codebase and improve overall quality.
+### Adaptable Communication: Team members reached out proactively to provide support and stay aligned on goals.
 
 ## Team Contributions
-Research and Exploration: Team members conducted in-depth research and experimentation with various models and techniques.
-Code Development: Multiple iterations of the codebase were developed, incorporating enhancements and optimizations at each step.
-Peer Reviews and Refinements: Active peer reviews helped identify bugs, improve performance, and ensure code quality.
-Final Deliverables: The team worked collaboratively to integrate standalone scripts into the final submission, ensuring compliance with project requirements.
-Highlights of Individual Contributions:
+### Research and Exploration: Team members conducted in-depth research and experimentation with various models and techniques.
+### Code Development: Multiple iterations of the codebase were developed, incorporating enhancements and optimizations at each step.
+### Peer Reviews and Refinements: Active peer reviews helped identify bugs, improve performance, and ensure code quality.
+### Final Deliverables: The team worked collaboratively to integrate standalone scripts into the final submission, ensuring compliance with project requirements.
 
 # Modelling Process
-The team undertook a highly iterative process, creating and refining 20 to 30 versions for each model we worked on. These iterations were essential to test various hypotheses, evaluate performance, and address challenges that emerged during the modeling process. Each iteration involved:
+## The team undertook a highly iterative process, creating and refining 20 to 30 versions for each model we worked on. These iterations were essential to test various hypotheses, evaluate performance, and address challenges that emerged during the modeling process. Each iteration involved:
 
-Experimentation with different preprocessing techniques.
-Exploration of various machine learning algorithms.
-Tuning hyperparameters for optimal performance.
-Incorporating feedback from peer reviews to improve code and analysis.
+### Experimentation with different preprocessing techniques.
+### Exploration of various machine learning algorithms.
+### Tuning hyperparameters for optimal performance.
+### Incorporating feedback from peer reviews to improve code and analysis.
 This iterative workflow allowed the team to converge on robust solutions through continual experimentation and learning.
-
-
+##
+##
 ## MODEL LIGHTGPM and Hyperopt Model (Submital)
 The finalized model focused on training, evaluating, and analyzing a LightGBM-based solution for binary classification. The workflow emphasized robust performance optimization, thorough evaluation, and interpretability. The process began with data analysis and preprocessing, including checks for missing values, duplicates, and column consistency between datasets. Standardization and normalization were verified to maintain data consistency and compatibility for modeling. Hyperparameter optimization was performed using Hyperopt, with a focus on tuning key parameters such as learning_rate, num_leaves, and max_depth, ensuring a balance between overfitting and underfitting. The evaluation process utilized Stratified K-Fold Cross-Validation to provide reliable performance metrics while accounting for class imbalances across multiple data splits. AUC (Area Under the Curve) served as the primary metric for model evaluation, with visualizations like AUC distributions and scatter plots helping to analyze the relationship between hyperparameters and performance.
 To address model interpretability, the team employed SHAP (SHapley Additive exPlanations) values to identify influential features driving the model’s predictions. Correlation heatmaps and feature importance plots provided additional insights into how features and hyperparameters impacted the results. Finally, the model was used to generate predictions on the test dataset, which were formatted into a submission-ready CSV file. This approach ensured that the results were both high-performing and competition-ready.
