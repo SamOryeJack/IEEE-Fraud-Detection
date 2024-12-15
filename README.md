@@ -1,4 +1,4 @@
-# dsci_598_capstone
+# MARYVILLE University: DSCI 598 Capstone Project Github Repo and Project Overview Page
 This repository will be used for Maryville DSCI 598 Capstone Project - Kaggle IEEE Fraud Detection 
 
 # Project Team Members
