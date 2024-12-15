@@ -9,8 +9,8 @@ https://www.kaggle.com/c/ieee-fraud-detection
 
 # Main Outcome
 By combining optimization, rigorous evaluation, and interpretability, the team delivered several high-performing models. Best model scored 
-HyperOpt/LightGPM Model Results: Private Socre was .85 and Public Score was 0.885
-Optimized LightGPM Model Results: Private Socre was .93 and Public Score was 0.91
+## HyperOpt/LightGPM Model Results: Private Socre was .85 and Public Score was 0.885
+## Optimized LightGPM Model Results: Private Socre was .93 and Public Score was 0.91
 
 
 ## Project Description
