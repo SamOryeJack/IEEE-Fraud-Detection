@@ -49,13 +49,7 @@ Key strategies included a focus on independent work, where each member tackled s
 Team contributions spanned several critical areas. Research and exploration played a significant role, as team members conducted in-depth experimentation with various models and techniques. Code development progressed through multiple iterations, with enhancements and optimizations incorporated at each stage. Active peer reviews identified bugs, improved performance, and maintained code quality. Finally, the team collaborated to integrate standalone scripts into the final submission, ensuring the deliverables met all project requirements. This combination of individual effort and collaborative refinement resulted in a high-quality final product.
 
 # Modelling Process
-## The team undertook a highly iterative process, creating and refining 20 to 30 versions for each model we worked on. These iterations were essential to test various hypotheses, evaluate performance, and address challenges that emerged during the modeling process. Each iteration involved:
-
-### Experimentation with different preprocessing techniques.
-### Exploration of various machine learning algorithms.
-### Tuning hyperparameters for optimal performance.
-### Incorporating feedback from peer reviews to improve code and analysis.
-This iterative workflow allowed the team to converge on robust solutions through continual experimentation and learning.
+The team followed a highly iterative modeling process, creating and refining 20 to 30 versions for each model. These iterations were crucial for testing hypotheses, evaluating performance, and addressing challenges encountered during the modeling process. Each iteration involved experimenting with different preprocessing techniques, exploring various machine learning algorithms, and tuning hyperparameters to achieve optimal performance. Feedback from peer reviews was incorporated at each step, further enhancing the code and analysis. This iterative workflow allowed the team to converge on robust solutions through continuous experimentation and learning, ensuring the final model was both high-performing and reliable.
 ##
 ##
 ## MODEL LIGHTGPM and Hyperopt Model (Submital)
@@ -73,7 +67,7 @@ This script represents our team’s approach to building a robust binary classif
 
 Overall, this script reflects our team’s structured and methodical approach to machine learning. By combining thoughtful data preprocessing, automated feature selection, and robust model training techniques, we created a model that is both powerful and efficient, capable of handling complex datasets while providing clear insights into its decision-making process.
 ## File Path to Code
-https://github.com/gregofkickapoo/dsci_598_capstone/blob/main/LightGBM_w_HyperOpt_Pipeline/V5%20Edited%20Version%20v5.ipynb
+](https://github.com/gregofkickapoo/dsci_598_capstone/tree/main/Optimized_LightGBM_Model)
 ## LIGHTGPM and Hyperopt Model Kaggle Submission Results
 Private Socre was .93 and Public Score was 0.91
 
