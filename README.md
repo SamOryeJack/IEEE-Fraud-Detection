@@ -1,6 +1,9 @@
 # dsci_598_capstone
 This repository will be used for Maryville DSCI 598 Capstone Project - Kaggle IEEE Fraud Detection 
 
+# Project Team Members
+Chavon Jackson, Paul Desmond, Greg Ballard
+
 # Competition Page
 https://www.kaggle.com/c/ieee-fraud-detection
 
