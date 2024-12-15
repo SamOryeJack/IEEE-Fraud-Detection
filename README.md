@@ -42,18 +42,11 @@ Despite these challenges, we overcame them through careful planning, collaborati
 
 
 # Team Approach
-The team adopted a hybrid collaboration model to navigate challenges such as differing time zones, personal responsibilities, and varying work commitments. Recognizing the need for flexibility, the team emphasized independent analysis, code creation, and regular peer reviews over synchronous collaboration. This approach balanced individual accountability with team alignment, ensuring steady progress despite logistical constraints.
+The team adopted a hybrid collaboration model to address challenges such as differing time zones, personal responsibilities, and varying work commitments. By emphasizing flexibility, the team prioritized independent analysis, code creation, and regular peer reviews over synchronous collaboration. This approach balanced individual accountability with team alignment, enabling steady progress despite logistical constraints.
 
-## Key strategies included:
-### Focused Independent Work: Each member tackled specific tasks, allowing for efficient use of their time.
-### Regular Peer Reviews: Feedback loops helped refine the codebase and improve overall quality.
-### Adaptable Communication: Team members reached out proactively to provide support and stay aligned on goals.
+Key strategies included a focus on independent work, where each member tackled specific tasks to maximize efficiency. Regular peer reviews created feedback loops that refined the codebase and improved overall quality. Adaptable communication ensured that team members could proactively provide support and remain aligned on project goals.
 
-## Team Contributions
-### Research and Exploration: Team members conducted in-depth research and experimentation with various models and techniques.
-### Code Development: Multiple iterations of the codebase were developed, incorporating enhancements and optimizations at each step.
-### Peer Reviews and Refinements: Active peer reviews helped identify bugs, improve performance, and ensure code quality.
-### Final Deliverables: The team worked collaboratively to integrate standalone scripts into the final submission, ensuring compliance with project requirements.
+Team contributions spanned several critical areas. Research and exploration played a significant role, as team members conducted in-depth experimentation with various models and techniques. Code development progressed through multiple iterations, with enhancements and optimizations incorporated at each stage. Active peer reviews identified bugs, improved performance, and maintained code quality. Finally, the team collaborated to integrate standalone scripts into the final submission, ensuring the deliverables met all project requirements. This combination of individual effort and collaborative refinement resulted in a high-quality final product.
 
 # Modelling Process
 ## The team undertook a highly iterative process, creating and refining 20 to 30 versions for each model we worked on. These iterations were essential to test various hypotheses, evaluate performance, and address challenges that emerged during the modeling process. Each iteration involved:
