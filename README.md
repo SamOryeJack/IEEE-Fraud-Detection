@@ -38,8 +38,8 @@ Collaboration introduced its own set of challenges, as team members worked acros
 
 Despite these challenges, we overcame them through careful planning, collaboration, and persistence. Robust preprocessing, thoughtful experimentation, and leveraging modern tools like LightGBM, Hyperopt, and SHAP enabled us to optimize the model effectively. Collaborative problem-solving and regular communication ensured that all team members contributed meaningfully, even when faced with logistical constraints. These obstacles ultimately strengthened both our workflow and the final model, resulting in a high-performing and interpretable solution.
 ##
- ##
-
+##
+##
 
 # Team Approach
 The team adopted a hybrid collaboration model to address challenges such as differing time zones, personal responsibilities, and varying work commitments. By emphasizing flexibility, the team prioritized independent analysis, code creation, and regular peer reviews over synchronous collaboration. This approach balanced individual accountability with team alignment, enabling steady progress despite logistical constraints.
@@ -52,6 +52,7 @@ Team contributions spanned several critical areas. Research and exploration play
 The team followed a highly iterative modeling process, creating and refining 20 to 30 versions for each model. These iterations were crucial for testing hypotheses, evaluating performance, and addressing challenges encountered during the modeling process. Each iteration involved experimenting with different preprocessing techniques, exploring various machine learning algorithms, and tuning hyperparameters to achieve optimal performance. Feedback from peer reviews was incorporated at each step, further enhancing the code and analysis. This iterative workflow allowed the team to converge on robust solutions through continuous experimentation and learning, ensuring the final model was both high-performing and reliable.
 ##
 ##
+##
 ## MODEL LIGHTGPM and Hyperopt Model (Submital)
 The finalized model focused on training, evaluating, and analyzing a LightGBM-based solution for binary classification. The workflow emphasized robust performance optimization, thorough evaluation, and interpretability. The process began with data analysis and preprocessing, including checks for missing values, duplicates, and column consistency between datasets. Standardization and normalization were verified to maintain data consistency and compatibility for modeling. Hyperparameter optimization was performed using Hyperopt, with a focus on tuning key parameters such as learning_rate, num_leaves, and max_depth, ensuring a balance between overfitting and underfitting. The evaluation process utilized Stratified K-Fold Cross-Validation to provide reliable performance metrics while accounting for class imbalances across multiple data splits. AUC (Area Under the Curve) served as the primary metric for model evaluation, with visualizations like AUC distributions and scatter plots helping to analyze the relationship between hyperparameters and performance.
 To address model interpretability, the team employed SHAP (SHapley Additive exPlanations) values to identify influential features driving the model’s predictions. Correlation heatmaps and feature importance plots provided additional insights into how features and hyperparameters impacted the results. Finally, the model was used to generate predictions on the test dataset, which were formatted into a submission-ready CSV file. This approach ensured that the results were both high-performing and competition-ready.
@@ -60,8 +61,11 @@ The IEEE-CIS Fraud Detection Kaggle competition posed numerous challenges, inclu
 https://github.com/gregofkickapoo/dsci_598_capstone/blob/main/LightGBM_w_HyperOpt_Pipeline/V5%20Edited%20Version%20v5.ipynb
 ## LIGHTGPM and Hyperopt Model Kaggle Submission Results
 Private Socre was .85 and Public Score was 0.885
-
-
+##
+##
+##
+##
+##
 # Optimized LightGBM Framework Model
 This script represents our team’s approach to building a robust binary classification model using LightGBM, with a focus on exploratory data analysis (EDA), preprocessing, feature selection, and model optimization. We began by addressing common issues in raw datasets, such as handling missing values, encoding categorical variables into numerical formats, and normalizing features to ensure consistency and compatibility with the model. These preprocessing steps were critical to creating a clean and reliable dataset that would maximize the model’s predictive power. To train the model, we used LightGBM’s LGBMClassifier, which is well-suited for large datasets and structured data. The dataset was split into 75% training and 25% validation subsets, ensuring robust evaluation throughout the process. We carefully tuned the model’s hyperparameters, including the number of estimators, maximum tree depth, learning rate, and subsampling fractions, to balance performance and efficiency. To prevent overfitting and save computational resources, we implemented early stopping, which halts training if the validation performance does not improve after 100 rounds. The primary evaluation metric for the model was the AUC (Area Under the Curve), chosen for its effectiveness in binary classification tasks, as it measures the model’s ability to distinguish between classes. One of the key features of this script is the forward feature selection process we implemented. This iterative method tests each feature by temporarily adding it to the current set of selected features and evaluating its impact on the model’s performance. Features that improve the AUC score are retained, while those that do not are excluded. This dynamic process continues until no additional features enhance the score, ensuring that the final model uses only the most relevant features. This feature selection process automated much of the manual effort typically required, making the workflow more efficient and scalable. Once the best features were identified, we retrained the final LightGBM model on the selected feature set, focusing on maximizing the AUC score. The iterative logs and verbose output throughout the process provided valuable insights into which features contributed most to the model’s success, making the model both high-performing and interpretable.
 
